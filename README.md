@@ -13,6 +13,7 @@ $modal.modalRemote({
   url: 'http://my-endpoint',
   endpointDataType: 'json',
   params: {query01: 'value', query02: 'value2'},
+  // Optional
   callbacks: {
     onContentLoaded: function (json) {
       // Custom modal content injection
