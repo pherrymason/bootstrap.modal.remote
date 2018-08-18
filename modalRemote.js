@@ -115,14 +115,14 @@
         if (!data) {
             $this.data('ModalRemote', (data = new ModalRemote(this, options)));
         }
-        else if (typeof(nOptions) === 'object') {
+        else if (typeof(options) === 'object') {
             // Update options
             data.options = $.extend(data.options, options);
             data.show();
         }
         // @todo If needed, implement way to call internal methods
-        else if (typeof nOptions==='string') {
-            data[nOptions](args);
+        else if (typeof options==='string') {
+            data[options](args);
         } else if (options.show) {
             data.show(args);
         }
