@@ -4,7 +4,7 @@ Bootstrap 4 Modal extended with ajax capabilities
 Extend [bootstrap 4-modal](https://getbootstrap.com/docs/4.1/components/modal/) library with remote content capabilities.
 
 ## Install
-
+```npm install bootstrap.modal.remote```
 
 ## Usage
 ```
