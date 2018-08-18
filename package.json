@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-modal-remote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap 4 Modal extended with ajax capabilities",
   "main": "modalRemote.js",
   "repository": "git@github.com:raulferras/bootstrap.modal.remote.git",
