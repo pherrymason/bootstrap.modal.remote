@@ -2,7 +2,7 @@
     if (typeof exports === 'object') {
         var $ = require('jquery');
         window.jQuery = $;
-        require('bootstrap-modal');
+        require('bootstrap/js/dist/modal');
         factory(require('jquery'));
     }
     else {
