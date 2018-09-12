@@ -71,6 +71,7 @@
                     window.console.error('Could not load the modal:' + errorReason);
                 }
                 this.$body.removeClass('loading');
+                this.$body.html('<div class="alert alert-danger" role="alert"><h4 class="alert-heading">Ha ocurrido un error!</h4><p>No se ha podido cargar el contenido. Vuelve a intentarlo.</p></div>');
             }.bind(this));
     };
 
