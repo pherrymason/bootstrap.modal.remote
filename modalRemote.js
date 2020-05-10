@@ -111,7 +111,7 @@
 
         var $this = $(this);
         var data = $this.data('ModalRemote');
-        var options = typeof option === 'object' && option;
+        var options = option;
 
         if (!data) {
             $this.data('ModalRemote', (data = new ModalRemote(this, options)));
